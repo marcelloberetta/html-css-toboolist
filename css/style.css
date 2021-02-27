@@ -1,0 +1,75 @@
+body{
+  background-color: #f6f8f9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header, nav, main{
+  background-color: #ffffff;
+}
+
+nav{
+  margin-top: 35px;
+  margin-left: 300px;
+  margin-right: 400px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+header{
+  padding: 5px;
+}
+
+.logoname{
+  display: inline-block;
+  
+
+}
+
+.navbuttons{
+  padding-left: 40px;
+}
+
+.logoname, .logo{
+  vertical-align: middle;
+}
+
+.bluebutton, .transparentbutton{
+  vertical-align: middle;
+  font-size: 11px;
+  border-radius: 4px;
+  padding: 5px;
+  height: 25px;
+   
+  
+ }
+
+
+ .bluebutton{
+   width: 60px;
+ }
+
+ .transparentbutton{
+   background-color: transparent;
+   border: 1px solid #c5cbd0;
+   color: #c5cbd0;
+   width: 80px;
+ }
+ 
+
+ .bluestyle{
+  background-color: #47adf1;
+  color: #ffffff;
+  
+ }
+
+ .buttons{
+  border: none;
+ }
+
+
+
+
+
