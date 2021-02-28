@@ -22,10 +22,11 @@ header{
   font-weight: bold;
 }
 
-nav,main{
+nav, main{
   margin-left: 200px;
   margin-right: 200px;
 }
+
 
 section{
   margin-top: 2px;
@@ -35,6 +36,7 @@ section{
 
 main{
   padding-bottom: 35px;
+  
 }
 
 .logoname{
@@ -130,4 +132,26 @@ span:nth-child(2){
   padding: 6px 10px;
   border-radius: 15px;
 
+}
+
+.undone, .done{
+  font-size: 50%;
+  border-radius: 50%;
+  border: 1px solid;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: inline-block;
+}
+
+.done{
+  color: #6bc4ae;
+}
+
+.undone{
+  color: #ea453b;
+}
+
+section > div, .undone, .done{
+  vertical-align: middle;
 }
